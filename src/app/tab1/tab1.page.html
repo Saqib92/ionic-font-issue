@@ -6,16 +6,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-button (click)="initFlurry()">init flurry</ion-button>
+  <ion-item>
+    <ion-label position="stacked">Input TEXT 1</ion-label>
+    <ion-input type="text" placeholder="ENTER TEXT HERE"></ion-input>
+  </ion-item>
 
-  <ion-button (click)="logEvt()">Log evt</ion-button>
 
+  <ion-input type="text" placeholder="ENTER TEXT 2"></ion-input>
+
+
+  <ion-input type="text" placeholder="ENTER TEXT 3"></ion-input>
+
+  
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
