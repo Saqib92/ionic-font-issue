@@ -1,0 +1,6 @@
+{
+	"appId": "com.idevation.flurryapp",
+	"appName": "flurryApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
